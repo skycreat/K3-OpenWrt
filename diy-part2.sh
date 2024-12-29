@@ -11,10 +11,6 @@ echo '修改 IP'
 sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 echo '========= IP修改完成!========='
 
-#echo '修改 主题'
-#sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
-#echo '========= 主题修改完成!========='
-
 echo '修改 主机名称'
 sed -i 's/OpenWrt/Router/g' package/base-files/files/bin/config_generate
 echo '========= 主机名称修改完成!========='
