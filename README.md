@@ -1,5 +1,5 @@
 K3 OpenWrt 
-ssr+
+password
 mosdns
 upnp
 上网时间控制
